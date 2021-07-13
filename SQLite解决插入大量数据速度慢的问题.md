@@ -28,7 +28,7 @@ for (int i = 0; i < 5000; i++)
     // 执行sql
     if (SQLITE_OK != sqlite3_exec(conn, p_sql, 0, 0, &err_msg))
     {
-        is_succed = false;
+        is_success = false;
         break;
     }
 }
